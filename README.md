@@ -5,6 +5,8 @@ Menjalankan `python run.py`
 
 Tested di manjaro dengan toolkit dari repository : blackarch, archstrike, kali dan populer di git stuff 
 
+Project ini adalah lanjutan dari [RTS](https://github.com/irfnrdh/rts) yang terhenti.
+
 ## Demo
 
 ![image](https://github.com/irfnrdh/retasin-toolkit/assets/7637012/b8d241c6-58b6-4b8e-a261-af08a5cf7739)
