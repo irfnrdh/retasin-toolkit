@@ -1,0 +1,33 @@
+{
+    "options": [
+        {
+            "key": "1",
+            "description": "Wifi Audit",
+            "sub_menu": [
+                {"key": "1", "description": "🔥 Wifite    - Wifi Tester Automation", "function": "sudo wifite"},
+                {"key": "1", "description": "Airgeddon    - Wifi Testing Manual", "function": "sudo airgeddon"},
+                {"key": "2", "description": "Bettercap    - Swis Army Snifing", "function": "sudo bettercap"},
+                {"key": "3", "description": "Enable Wifi  - Stop Wifi Monitor Mode", "function": "sudo airmon-ng stop wlan0mon"}
+            ]
+        },
+        {
+            "key": "2",
+            "description": "Web Audit",
+            "sub_menu": [
+                {"key": "1", "description": "Gobuster", "function": "sudo gobuster"},
+                {
+                    "key": "2",
+                    "description": "Sniper",
+                    "function": "sudo sn1per -t $input_prompt_1 -o -re $input_prompt_2",
+                    "needs_input": true,
+                    "inputs": [
+                        {"placeholder": "$input_prompt_1", "prompt": "Enter target domain (e.g., domain.com): "},
+                        {"placeholder": "$input_prompt_2", "prompt": "Enter additional parameter: "}
+                    ]
+
+                }
+
+            ]
+        }
+    ]
+}
